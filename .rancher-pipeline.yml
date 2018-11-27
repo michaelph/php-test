@@ -6,4 +6,6 @@ stages:
       buildContext: .
       tag: michael/app:v1
       registry: 127.0.0.1:34612
+  - applyYamlConfig:
+      path: ./deployment.yaml
 timeout: 60
